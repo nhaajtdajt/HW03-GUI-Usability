@@ -5,40 +5,40 @@
 
 Mức độ (Severity): **Critical** = mất dữ liệu/bảo mật · **High** = sai nghiệp vụ hoặc chặn thao tác chính · **Medium** = sai đặc tả, có cách vượt qua · **Low** = thẩm mỹ, nhất quán.
 
-| Bug | Tiêu đề | Severity | Checklist |
-|---|---|---|---|
-| BUG-01 | Địa chỉ giao hàng render HTML, chạy được script (XSS) | Critical | GUI-67 |
-| BUG-02 | Admin xóa được chính tài khoản đang đăng nhập | Critical | GUI-74 |
-| BUG-03 | Mọi thao tác Xóa / Hủy đơn không có hộp xác nhận | High | GUI-59, GUI-65 |
-| BUG-04 | Doanh thu Dashboard bị nhân đôi | High | GUI-68 |
-| BUG-05 | Đơn đã hủy vẫn có nút "Đánh dấu Đã giao" | High | GUI-64 |
-| BUG-06 | Sửa 1 sản phẩm làm bảng hiển thị đổi tên tất cả sản phẩm | High | GUI-70 |
-| BUG-07 | Import CSV không rollback khi có dòng lỗi, báo cáo không nêu lỗi | High | GUI-72, GUI-73 |
-| BUG-08 | Form sản phẩm nhận giá rỗng, 0, âm và tên > 255 ký tự | High | GUI-26, GUI-27, GUI-28 |
-| BUG-09 | Thêm được danh mục tên rỗng / toàn khoảng trắng | Medium | GUI-23, GUI-24 |
-| BUG-10 | Form coupon nhận giá trị 0, 150%, đơn tối thiểu âm, ngày quá khứ | Medium | GUI-36, GUI-37, GUI-38, GUI-40 |
-| BUG-11 | Import CSV tách sai trường có dấu phẩy trong nháy kép | Medium | GUI-34 |
-| BUG-12 | Ô chọn file import nhận file không phải .csv | Medium | GUI-32 |
-| BUG-13 | Bấm nút submit 2 lần tạo bản ghi trùng | Medium | GUI-78 |
-| BUG-14 | Thông báo lỗi lộ chi tiết kỹ thuật (SQLITE_CONSTRAINT) | Medium | GUI-41, GUI-61 |
-| BUG-15 | Phản hồi dùng alert() trình duyệt, không có thông báo inline/toast, thiếu thông báo thành công | Medium | GUI-42, GUI-60, GUI-62, GUI-79 |
-| BUG-16 | Không có trạng thái loading, lỗi tải dữ liệu và empty state | Medium | GUI-57, GUI-58 |
-| BUG-17 | Menu sidebar không dùng được bằng bàn phím | Medium | GUI-13, GUI-46, GUI-77 |
-| BUG-18 | Màn hình không có URL riêng; F5 và nút Back hoạt động sai | Medium | GUI-49, GUI-50, GUI-51 |
-| BUG-19 | Ô nhập không có nhãn và dấu * cho trường bắt buộc | Medium | GUI-21, GUI-22 |
-| BUG-20 | Trường Email đăng nhập dùng type="text" | Low | GUI-19 |
-| BUG-21 | Độ tương phản chữ trên nút thấp hơn WCAG AA | Medium | GUI-16 |
-| BUG-22 | Màu nút không theo quy ước (tích cực = xanh dương, nguy hiểm = đỏ) | Low | GUI-04, GUI-05, GUI-66 |
-| BUG-23 | Định dạng tiền tệ không thống nhất, giá sản phẩm không phân cách hàng nghìn | Low | GUI-06, GUI-07 |
-| BUG-24 | Giao diện còn tiếng Anh, viết tắt và viết hoa không thống nhất | Low | GUI-01, GUI-02, GUI-08, GUI-10, GUI-11, GUI-12 |
-| BUG-25 | Không có thẻ h1 cho tiêu đề màn hình | Low | GUI-03 |
-| BUG-26 | Không có breadcrumb | Low | GUI-52 |
-| BUG-27 | Bảng dài không phân trang, tiêu đề cột không cố định | Low | GUI-54 |
-| BUG-28 | Checkbox chọn tất cả ở bảng Người dùng không hoạt động | Low | GUI-55 |
-| BUG-29 | Bấm "Sửa" ở cuối bảng không đưa người dùng tới form sửa | Low | GUI-56 |
-| BUG-30 | Dropdown danh mục không có lựa chọn mặc định "Chọn danh mục" | Low | GUI-29 |
-| BUG-31 | Coupon hết hạn bị ẩn ngày hết hạn | Low | GUI-76 |
-| BUG-32 | Đăng nhập sai 2 lần đã khóa tài khoản 3 phút (đặc tả: 3 lần, 30 giây) | Medium | GUI-79 |
+| Bug | Tiêu đề | Severity | Checklist | GitHub Issue |
+|---|---|---|---|---|
+| BUG-01 | Địa chỉ giao hàng render HTML, chạy được script (XSS) | Critical | GUI-67 | [#1](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/1) |
+| BUG-02 | Admin xóa được chính tài khoản đang đăng nhập | Critical | GUI-74 | [#2](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/2) |
+| BUG-03 | Mọi thao tác Xóa / Hủy đơn không có hộp xác nhận | High | GUI-59, GUI-65 | [#3](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/3) |
+| BUG-04 | Doanh thu Dashboard bị nhân đôi | High | GUI-68 | [#4](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/4) |
+| BUG-05 | Đơn đã hủy vẫn có nút "Đánh dấu Đã giao" | High | GUI-64 | [#5](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/5) |
+| BUG-06 | Sửa 1 sản phẩm làm bảng hiển thị đổi tên tất cả sản phẩm | High | GUI-70 | [#6](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/6) |
+| BUG-07 | Import CSV không rollback khi có dòng lỗi, báo cáo không nêu lỗi | High | GUI-72, GUI-73 | [#7](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/7) |
+| BUG-08 | Form sản phẩm nhận giá rỗng, 0, âm và tên > 255 ký tự | High | GUI-26, GUI-27, GUI-28 | [#8](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/8) |
+| BUG-09 | Thêm được danh mục tên rỗng / toàn khoảng trắng | Medium | GUI-23, GUI-24 | [#9](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/9) |
+| BUG-10 | Form coupon nhận giá trị 0, 150%, đơn tối thiểu âm, ngày quá khứ | Medium | GUI-36, GUI-37, GUI-38, GUI-40 | [#10](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/10) |
+| BUG-11 | Import CSV tách sai trường có dấu phẩy trong nháy kép | Medium | GUI-34 | [#11](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/11) |
+| BUG-12 | Ô chọn file import nhận file không phải .csv | Medium | GUI-32 | [#12](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/12) |
+| BUG-13 | Bấm nút submit 2 lần tạo bản ghi trùng | Medium | GUI-78 | [#13](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/13) |
+| BUG-14 | Thông báo lỗi lộ chi tiết kỹ thuật (SQLITE_CONSTRAINT) | Medium | GUI-41, GUI-61 | [#14](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/14) |
+| BUG-15 | Phản hồi dùng alert() trình duyệt, không có thông báo inline/toast, thiếu thông báo thành công | Medium | GUI-42, GUI-60, GUI-62, GUI-79 | [#15](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/15) |
+| BUG-16 | Không có trạng thái loading, lỗi tải dữ liệu và empty state | Medium | GUI-57, GUI-58 | [#16](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/16) |
+| BUG-17 | Menu sidebar không dùng được bằng bàn phím | Medium | GUI-13, GUI-46, GUI-77 | [#17](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/17) |
+| BUG-18 | Màn hình không có URL riêng; F5 và nút Back hoạt động sai | Medium | GUI-49, GUI-50, GUI-51 | [#18](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/18) |
+| BUG-19 | Ô nhập không có nhãn và dấu * cho trường bắt buộc | Medium | GUI-21, GUI-22 | [#19](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/19) |
+| BUG-20 | Trường Email đăng nhập dùng type="text" | Low | GUI-19 | [#20](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/20) |
+| BUG-21 | Độ tương phản chữ trên nút thấp hơn WCAG AA | Medium | GUI-16 | [#21](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/21) |
+| BUG-22 | Màu nút không theo quy ước (tích cực = xanh dương, nguy hiểm = đỏ) | Low | GUI-04, GUI-05, GUI-66 | [#22](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/22) |
+| BUG-23 | Định dạng tiền tệ không thống nhất, giá sản phẩm không phân cách hàng nghìn | Low | GUI-06, GUI-07 | [#23](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/23) |
+| BUG-24 | Giao diện còn tiếng Anh, viết tắt và viết hoa không thống nhất | Low | GUI-01, GUI-02, GUI-08, GUI-10, GUI-11, GUI-12 | [#24](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/24) |
+| BUG-25 | Không có thẻ h1 cho tiêu đề màn hình | Low | GUI-03 | [#25](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/25) |
+| BUG-26 | Không có breadcrumb | Low | GUI-52 | [#26](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/26) |
+| BUG-27 | Bảng dài không phân trang, tiêu đề cột không cố định | Low | GUI-54 | [#27](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/27) |
+| BUG-28 | Checkbox chọn tất cả ở bảng Người dùng không hoạt động | Low | GUI-55 | [#28](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/28) |
+| BUG-29 | Bấm "Sửa" ở cuối bảng không đưa người dùng tới form sửa | Low | GUI-56 | [#29](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/29) |
+| BUG-30 | Dropdown danh mục không có lựa chọn mặc định "Chọn danh mục" | Low | GUI-29 | [#30](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/30) |
+| BUG-31 | Coupon hết hạn bị ẩn ngày hết hạn | Low | GUI-76 | [#31](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/31) |
+| BUG-32 | Đăng nhập sai 2 lần đã khóa tài khoản 3 phút (đặc tả: 3 lần, 30 giây) | Medium | GUI-79 | [#32](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues/32) |
 
 ---
 

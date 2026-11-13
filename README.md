@@ -22,7 +22,7 @@
 | Số flow usability (Task 2) | 1 |
 | Mục checklist thiết kế | 79 (AI) + _(Human)_ |
 | Mục đã thực thi / Passed / Failed (Chromium) | 79 / 22 / 57 |
-| Số bug | 32 ([bug-report.md](task1-gui-checklist/bug-report.md)) — trên GitHub Issues: _(link)_ |
+| Số bug | 32 ([bug-report.md](task1-gui-checklist/bug-report.md)) — trên [GitHub Issues](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues) (#1–#32) |
 | Số người tham gia usability | _(7)_ |
 | Điểm SUS trung bình | _(xem SUS_and_Task_Metrics.xlsx)_ |
 | Nền tảng cross-browser | Chrome/Windows, Firefox/Windows, Safari/macOS _(hoặc Chrome/Android)_ |
