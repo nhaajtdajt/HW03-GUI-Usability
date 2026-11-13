@@ -1,7 +1,7 @@
 // HW03 Task 3: watermark for cross-browser screenshots (student info + detected browser/OS + URL + time).
 // Not part of the SUT under test; injected via index.html only on this local copy.
 (function () {
-  var STUDENT = { email: "STUDENT_EMAIL", id: "STUDENT_ID", name: "STUDENT_NAME" };
+  var STUDENT = { email: "23120231@student.hcmus.edu.vn", id: "23120231", name: "Trương Nhật Đạt" };
   var ua = navigator.userAgent;
   var browser = /Edg\//.test(ua) ? "Edge " + ua.match(/Edg\/([\d.]+)/)[1]
     : /Firefox\//.test(ua) ? "Firefox " + ua.match(/Firefox\/([\d.]+)/)[1]
