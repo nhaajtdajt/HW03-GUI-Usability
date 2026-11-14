@@ -1,3 +1,30 @@
+commit 0561523113520b8d812c5a6d18c37db3cf50ba4c
+Author: 23120231 <nhatdat2905@gmail.com>
+Date:   2026-11-14 10:38:07 +0700
+
+    Main report, Task 2 analysis template and session notes, packaging script (PDF, git log, zip)
+
+ .gitignore                             |   3 +
+ README.md                              |   4 +-
+ git-log.txt                            | 119 ++++++++++++++++++++++++++++++++
+ pdf/ai_ai-audit-report.pdf             | Bin 0 -> 127512 bytes
+ pdf/ai_ai-critique.pdf                 | Bin 0 -> 74117 bytes
+ pdf/report.pdf                         | Bin 0 -> 207402 bytes
+ pdf/task1-gui-checklist_bug-report.pdf | Bin 0 -> 385646 bytes
+ pdf/task2-usability_07-analysis.pdf    | Bin 0 -> 99600 bytes
+ report.md                              | 121 +++++++++++++++++++++++++++++++++
+ task2-usability/07-analysis.md         |  51 ++++++++++++++
+ task2-usability/recordings/.gitkeep    |   0
+ task2-usability/sessions/P1.md         |  43 ++++++++++++
+ task2-usability/sessions/P2.md         |  43 ++++++++++++
+ task2-usability/sessions/P3.md         |  43 ++++++++++++
+ task2-usability/sessions/P4.md         |  43 ++++++++++++
+ task2-usability/sessions/P5.md         |  43 ++++++++++++
+ task2-usability/sessions/P6.md         |  43 ++++++++++++
+ task2-usability/sessions/P7.md         |  43 ++++++++++++
+ tools/package.mjs                      |  45 ++++++++++++
+ 19 files changed, 642 insertions(+), 2 deletions(-)
+
 commit 213035be3d0e9dd16264fa473e9214ed6542e56a
 Author: 23120231 <nhatdat2905@gmail.com>
 Date:   2026-11-13 23:39:02 +0700
