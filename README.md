@@ -1,7 +1,7 @@
 # HW03 — GUI & Usability · EShop Web Admin (G5)
 
-**Sinh viên:** Trương Nhật Đạt · **MSSV:** 23120231 · **Email:** 23120231@student.hcmus.edu.vn
-**Phạm vi (gói G5, không trùng thành viên khác):** màn hình chính **Admin Dashboard**; màn hình phụ Admin Login, Danh mục, Sản phẩm + Import CSV, Mã giảm giá, Đơn hàng, Người dùng. Flow usability: *Đăng nhập Admin → Dashboard → Tạo sản phẩm → Tạo mã giảm giá → Xử lý đơn hàng*.
+**Sinh viên:** Trương Nhật Đạt · **MSSV:** 23120231 · **Email:** 23120231@student.hcmus.edu.vn \
+**Phạm vi (gói G5, không trùng thành viên khác):** màn hình chính **Admin Dashboard**; màn hình phụ Admin Login, Danh mục, Sản phẩm + Import CSV, Mã giảm giá, Đơn hàng, Người dùng. Flow usability: *Đăng nhập Admin → Dashboard → Tạo sản phẩm → Tạo mã giảm giá → Xử lý đơn hàng*. \
 **SUT:** https://github.com/ttbhanh/eshop-sut (Web Admin `http://localhost:5174`, Backend `http://localhost:3000`).
 
 ## Tự đánh giá

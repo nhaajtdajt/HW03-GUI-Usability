@@ -1,0 +1,119 @@
+commit 213035be3d0e9dd16264fa473e9214ed6542e56a
+Author: 23120231 <nhatdat2905@gmail.com>
+Date:   2026-11-13 23:39:02 +0700
+
+    Bug logging: create 32 GitHub issues with screenshots, link them in bug report
+
+ README.md                         |  2 +-
+ task1-gui-checklist/bug-report.md | 68 +++++++++++++++++++--------------------
+ tools/create-issues.mjs           | 36 +++++++++++++++++++++
+ 3 files changed, 71 insertions(+), 35 deletions(-)
+
+commit d39155edeb4855f768bd680ee3e9d66fe69a8d65
+Author: 23120231 <nhatdat2905@gmail.com>
+Date:   2026-11-13 23:36:08 +0700
+
+    Fill student info in README and screenshot overlay
+
+ README.md               | 2 +-
+ tools/tester-overlay.js | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 929797106bd8d4e28131320af83c3d4dea2676e4
+Author: 23120231 <nhatdat2905@gmail.com>
+Date:   2026-11-13 23:32:37 +0700
+
+    Docs: AI audit report, AI critique draft, README with self-assessment and test summary
+
+ README.md             | 49 +++++++++++++++++++++++++++++++++++++++++++++++++
+ ai/ai-audit-report.md | 29 +++++++++++++++++++++++++++++
+ ai/ai-critique.md     | 10 ++++++++++
+ 3 files changed, 88 insertions(+)
+
+commit 494782a3c1ba84edccf6c8f7bc9c319682d849ac
+Author: 23120231 <nhatdat2905@gmail.com>
+Date:   2026-11-13 23:31:22 +0700
+
+    Task 4: agent skills gui-checklist and usability-eval
+
+ .claude/skills/gui-checklist/SKILL.md  | 43 ++++++++++++++++++++++++++++++++++
+ .claude/skills/usability-eval/SKILL.md | 30 ++++++++++++++++++++++++
+ 2 files changed, 73 insertions(+)
+
+commit bac7f8a667d9209c9400ab2a22384fa74cc84a6a
+Author: 23120231 <nhatdat2905@gmail.com>
+Date:   2026-11-13 23:29:08 +0700
+
+    Task 3: cross-browser plan, student-info overlay script, platform matrix workbook
+
+ task3-cross-browser/cross_platform_matrix.xlsx | Bin 0 -> 14432 bytes
+ task3-cross-browser/plan.md                    |  51 ++++++++++++++++++
+ task3-cross-browser/screenshots/PF-1/.gitkeep  |   0
+ task3-cross-browser/screenshots/PF-2/.gitkeep  |   0
+ task3-cross-browser/screenshots/PF-3/.gitkeep  |   0
+ tools/build_cross_matrix.py                    |  70 +++++++++++++++++++++++++
+ tools/tester-overlay.js                        |  27 ++++++++++
+ 7 files changed, 148 insertions(+)
+
+commit c9c90e2b21fda0a085af210e6b7a50ec55909a66
+Author: 23120231 <nhatdat2905@gmail.com>
+Date:   2026-11-13 23:27:41 +0700
+
+    Task 2: usability plan, moderator script, task cards, SUS form, templates and metrics workbook
+
+ task2-usability/01-plan.md                 |  74 +++++++++++++++++++
+ task2-usability/02-session-script.md       |  61 ++++++++++++++++
+ task2-usability/03-task-cards.md           |  50 +++++++++++++
+ task2-usability/04-observation-template.md |  43 +++++++++++
+ task2-usability/05-participants.md         |  14 ++++
+ task2-usability/06-pilot-notes.md          |  20 ++++++
+ task2-usability/SUS_and_Task_Metrics.xlsx  | Bin 0 -> 8878 bytes
+ tools/build_sus_sheet.py                   | 110 +++++++++++++++++++++++++++++
+ 8 files changed, 372 insertions(+)
+
+commit 7dd51201894ee7fd374d6f703a8876f8749b54b1
+Author: 23120231 <nhatdat2905@gmail.com>
+Date:   2026-11-13 23:25:18 +0700
+
+    Task 1: log 32 bugs from failed checklist items (bug-report.md)
+
+ task1-gui-checklist/bug-report.md | 239 ++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 239 insertions(+)
+
+commit 174b8db35e4abb4818970b340403469b8687b448
+Author: 23120231 <nhatdat2905@gmail.com>
+Date:   2026-11-13 23:23:55 +0700
+
+    Task 1: execute checklist on Chromium (79 items: 22 passed, 57 failed) with screenshots
+
+ task1-gui-checklist/GUI_Checklist_G5_Admin.xlsx    | Bin 16328 -> 19518 bytes
+ task1-gui-checklist/checklist.md                   | 166 +++++++++++----------
+ .../backend_down_no_loading_empty_state.jpg        | Bin 0 -> 16759 bytes
+ .../screenshots/categories_blank_and_duplicate.jpg | Bin 0 -> 26756 bytes
+ .../screenshots/categories_tab-order.jpg           | Bin 0 -> 22375 bytes
+ .../screenshots/coupons_invalid_values.jpg         | Bin 0 -> 44970 bytes
+ .../screenshots/csv_no_rollback.jpg                | Bin 0 -> 32548 bytes
+ .../screenshots/csv_quoted_comma_split.jpg         | Bin 0 -> 34362 bytes
+ .../screenshots/dashboard_revenue_x2.jpg           | Bin 0 -> 16635 bytes
+ task1-gui-checklist/screenshots/login_screen.jpg   | Bin 0 -> 8937 bytes
+ .../screenshots/orders_xss_and_invalid_actions.jpg | Bin 0 -> 45938 bytes
+ .../screenshots/products_edit_renames_all.jpg      | Bin 0 -> 39331 bytes
+ .../products_long_table_no_pagination.jpg          | Bin 0 -> 41179 bytes
+ .../screenshots/users_admin_deleted_self.jpg       | Bin 0 -> 18130 bytes
+ tools/apply_results.py                             | 124 +++++++++++++++
+ tools/seed-orders.mjs                              |  35 +++++
+ 16 files changed, 243 insertions(+), 82 deletions(-)
+
+commit 4f4ff00682aea8ba2ae7e2cea6977f21d1c56fea
+Author: 23120231 <nhatdat2905@gmail.com>
+Date:   2026-11-13 23:08:33 +0700
+
+    Task 1: design GUI checklist (79 AI-generated items, IA-01..IA-04) for EShop Web Admin
+
+ .claude/launch.json                             |  23 +++
+ .gitignore                                      |   3 +
+ 2026.HW03.GUI Usability_En.pdf                  | Bin 0 -> 231854 bytes
+ task1-gui-checklist/GUI_Checklist_G5_Admin.xlsx | Bin 0 -> 16328 bytes
+ task1-gui-checklist/checklist.md                |  85 ++++++++++
+ tools/build_checklist.py                        | 199 ++++++++++++++++++++++++
+ 6 files changed, 310 insertions(+)
