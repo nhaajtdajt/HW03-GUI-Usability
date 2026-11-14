@@ -1,3 +1,39 @@
+commit 3337ab05345cb6bcd901c700f0c0dbaf806acbe1
+Author: 23120231 <nhatdat2905@gmail.com>
+Date:   2026-11-14 10:47:33 +0700
+
+    Task 3: run checklist on real Chrome 157 (PF-1), 18 overlay screenshots, matrix column filled
+
+ git-log.txt                                        |  27 +++++++++++++
+ pdf/ai_ai-audit-report.pdf                         | Bin 127512 -> 127512 bytes
+ pdf/ai_ai-critique.pdf                             | Bin 74117 -> 74117 bytes
+ pdf/report.pdf                                     | Bin 207402 -> 209135 bytes
+ pdf/task1-gui-checklist_bug-report.pdf             | Bin 385646 -> 385646 bytes
+ pdf/task2-usability_07-analysis.pdf                | Bin 99600 -> 99600 bytes
+ report.md                                          |   2 +-
+ task3-cross-browser/cross_platform_matrix.xlsx     | Bin 14432 -> 15070 bytes
+ task3-cross-browser/screenshots/PF-1/.gitkeep      |   0
+ .../screenshots/PF-1/PF-1_01_login.jpg             | Bin 0 -> 23509 bytes
+ .../screenshots/PF-1/PF-1_02_dashboard.jpg         | Bin 0 -> 32434 bytes
+ .../screenshots/PF-1/PF-1_03_categories.jpg        | Bin 0 -> 40280 bytes
+ .../screenshots/PF-1/PF-1_04_products.jpg          | Bin 0 -> 56396 bytes
+ .../screenshots/PF-1/PF-1_05_coupons.jpg           | Bin 0 -> 64581 bytes
+ .../screenshots/PF-1/PF-1_06_orders.jpg            | Bin 0 -> 66973 bytes
+ .../screenshots/PF-1/PF-1_07_users.jpg             | Bin 0 -> 36983 bytes
+ .../PF-1/PF-1_08_categories_blank_duplicate.jpg    | Bin 0 -> 46318 bytes
+ .../PF-1/PF-1_09_products_edit_renames_all.jpg     | Bin 0 -> 62532 bytes
+ .../screenshots/PF-1/PF-1_10_tab_order.jpg         | Bin 0 -> 46304 bytes
+ .../screenshots/PF-1/PF-1_11_coupons_invalid.jpg   | Bin 0 -> 78047 bytes
+ .../screenshots/PF-1/PF-1_12_csv_no_rollback.jpg   | Bin 0 -> 56840 bytes
+ .../screenshots/PF-1/PF-1_13_csv_quoted_split.jpg  | Bin 0 -> 59814 bytes
+ .../screenshots/PF-1/PF-1_14_orders_xss.jpg        | Bin 0 -> 73954 bytes
+ .../screenshots/PF-1/PF-1_15_dashboard_x2.jpg      | Bin 0 -> 32386 bytes
+ .../screenshots/PF-1/PF-1_16_backend_down.jpg      | Bin 0 -> 32936 bytes
+ .../PF-1/PF-1_17_users_self_deleted.jpg            | Bin 0 -> 32849 bytes
+ .../screenshots/PF-1/PF-1_18_long_table.jpg        | Bin 0 -> 64120 bytes
+ tools/apply_pf1.py                                 |  45 +++++++++++++++++++++
+ 28 files changed, 73 insertions(+), 1 deletion(-)
+
 commit 0561523113520b8d812c5a6d18c37db3cf50ba4c
 Author: 23120231 <nhatdat2905@gmail.com>
 Date:   2026-11-14 10:38:07 +0700

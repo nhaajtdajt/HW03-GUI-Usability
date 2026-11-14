@@ -1,0 +1,295 @@
+{
+  "login": {
+    "overlay": "23120231@student.hcmus.edu.vn | 23120231 | Trương Nhật Đạt | Firefox 160.0 / Windows 10/11 | http://localhost:5174/ | 11:14:06 14/11/2026",
+    "h1": 0,
+    "h2": [
+      "Admin Login"
+    ],
+    "inputs": [
+      "text",
+      "password"
+    ],
+    "labels": 0
+  },
+  "loginTests": {
+    "abcValid": true,
+    "abc": [
+      "alert: Đăng nhập thất bại"
+    ],
+    "wrong": [
+      "alert: Đăng nhập thất bại"
+    ],
+    "nonAdmin": [
+      "alert: Bạn không phải là admin!"
+    ],
+    "stayLogin": true,
+    "loggedIn": [
+      "Dashboard"
+    ]
+  },
+  "audit": {
+    "out": {
+      "Dashboard": {
+        "h1": "EShop Admin",
+        "labels": 0,
+        "inputs": "",
+        "btn": "",
+        "active": "rgb(96, 165, 250)",
+        "liTab": -1,
+        "scroll": [
+          1280,
+          1280
+        ],
+        "cells": ""
+      },
+      "Danh mục": {
+        "h1": "EShop Admin",
+        "labels": 0,
+        "inputs": "text",
+        "btn": "Thêm mới=rgb(37, 99, 235) | Xóa=rgb(239, 68, 68)",
+        "active": "rgb(96, 165, 250)",
+        "liTab": -1,
+        "scroll": [
+          1280,
+          1280
+        ],
+        "cells": "#1 / Điện thoại / Xóa / #2 / Laptop"
+      },
+      "Sản phẩm": {
+        "h1": "EShop Admin",
+        "labels": 0,
+        "inputs": "file text* number text select-one",
+        "btn": "Import 0 sản phẩm=rgb(37, 99, 235) | Lưu sản phẩm=rgb(22, 163, 74) | Sửa=rgb(234, 179, 8) | Xóa=rgb(239, 68, 68)",
+        "active": "rgb(96, 165, 250)",
+        "liTab": -1,
+        "scroll": [
+          1280,
+          1280
+        ],
+        "cells": " / iPhone 15 Pro Max / 30000000 ₫ / SửaXóa / "
+      },
+      "Mã Giảm Giá": {
+        "h1": "EShop Admin",
+        "labels": 0,
+        "inputs": "text* select-one number* number date* number:min1",
+        "btn": "Tạo mã=rgb(249, 115, 22) | Xóa=rgb(239, 68, 68)",
+        "active": "rgb(96, 165, 250)",
+        "liTab": -1,
+        "scroll": [
+          1280,
+          1280
+        ],
+        "cells": "SAVE10 / Phần trăm / 10% / 300,000 ₫ / 2099-12-31"
+      },
+      "Đơn hàng": {
+        "h1": "EShop Admin",
+        "labels": 0,
+        "inputs": "",
+        "btn": "Đánh dấu Đã giao=rgb(34, 197, 94) | Hoàn thành=rgb(34, 197, 94) | Giao hàng=rgb(59, 130, 246) | Hủy=rgb(156, 163, 175) | Xác nhận=rgb(99, 102, 241)",
+        "active": "rgb(96, 165, 250)",
+        "liTab": -1,
+        "scroll": [
+          1280,
+          1280
+        ],
+        "cells": "#6 / Test User / 28,000,000 ₫ / 45 Trần Hưng Đạo, Hà Nội / Đã hủy"
+      },
+      "Người dùng": {
+        "h1": "EShop Admin",
+        "labels": 0,
+        "inputs": "checkbox checkbox checkbox",
+        "btn": "Xóa=rgb(239, 68, 68)",
+        "active": "rgb(96, 165, 250)",
+        "liTab": -1,
+        "scroll": [
+          1280,
+          1280
+        ],
+        "cells": " / 1 / admin@eshop.com / admin / "
+      }
+    },
+    "low": {
+      "270,000,000 ₫": 3.3,
+      "Xóa": 3.76,
+      "Lưu sản phẩm": 3.3,
+      "Sửa": 1.92,
+      "Tạo mã": 2.8,
+      "Hết hạn": 3.76,
+      "Đánh dấu Đã giao": 2.28,
+      "Hoàn thành": 2.28,
+      "Giao hàng": 3.68,
+      "Hủy": 2.54,
+      "Xác nhận": 4.47
+    }
+  },
+  "categories": {
+    "blankCreated": 2,
+    "doubleSubmit": 2,
+    "reset": true,
+    "successFeedback": [],
+    "del": {
+      "dlg": [],
+      "removedWithoutConfirm": true
+    }
+  },
+  "tabOrder": [
+    "INPUT:Tên danh mục mới",
+    "BUTTON:Thêm mới",
+    "BUTTON:Xóa"
+  ],
+  "hover": {
+    "hovered": true,
+    "bg": "rgb(37, 99, 235)"
+  },
+  "enterSubmits": true,
+  "products": {
+    "emptyName": {
+      "created": 0,
+      "msg": "Please fill out this field."
+    },
+    "invalidCreated": 4,
+    "longSaved": 300,
+    "selectPlaceholder": false,
+    "cancel": {
+      "had": true,
+      "title": "Thêm sản phẩm mới",
+      "name": ""
+    },
+    "formInView": false,
+    "editDlg": [
+      "alert: Cập nhật thành công!"
+    ],
+    "tableNames": [
+      "QA SP da sua"
+    ],
+    "dbRenamed": 1,
+    "imgs": [
+      "QA SP da sua:300x300",
+      "QA SP da sua:300x300"
+    ]
+  },
+  "coupons": {
+    "lower_shown": "QATEST1",
+    "lower": {
+      "created": 1,
+      "dlg": [],
+      "msg": [
+        "Please enter a number."
+      ]
+    },
+    "val0_shown": "QAZERO",
+    "val0": {
+      "created": 1,
+      "dlg": [],
+      "msg": [
+        "Please enter a number."
+      ]
+    },
+    "pct150_shown": "QA150",
+    "pct150": {
+      "created": 1,
+      "dlg": [],
+      "msg": [
+        "Please enter a number."
+      ]
+    },
+    "minNeg_shown": "QAMINNEG",
+    "minNeg": {
+      "created": 1,
+      "dlg": [],
+      "msg": [
+        "Please enter a number."
+      ]
+    },
+    "maxu0_shown": "QAMAX0",
+    "maxu0": {
+      "created": 0,
+      "dlg": [],
+      "msg": [
+        "Please select a value that is no less than 1."
+      ]
+    },
+    "past_shown": "QAPAST",
+    "past": {
+      "created": 1,
+      "dlg": [],
+      "msg": [
+        "Please enter a number."
+      ]
+    },
+    "dup_shown": "SAVE10",
+    "dup": {
+      "created": 0,
+      "dlg": [
+        "alert: Lỗi: SQLITE_CONSTRAINT: UNIQUE constraint failed: coupons.code"
+      ],
+      "msg": []
+    },
+    "typeNumberAcceptsText": ""
+  },
+  "csv": {
+    "initDisabled": true,
+    "accept": "",
+    "tplHeaderOk": true,
+    "txtButton": "Import 1 sản phẩm",
+    "result": "✅ Import hoàn tất: 2/2 sản phẩm được thêm",
+    "added": 2
+  },
+  "csvQuoted": [
+    "\"QA Ao",
+    "quan\"",
+    "150000",
+    "\"Mo ta",
+    "co dau phay\""
+  ],
+  "xssOrder": 7,
+  "orders": {
+    "afterReload": "Dashboard",
+    "bold": true,
+    "img": true,
+    "xss": true,
+    "statusLabels": [
+      "Chờ xác nhận=rgb(254, 249, 195)",
+      "Đã hủy=rgb(254, 226, 226)",
+      "Đã giao=rgb(220, 252, 231)",
+      "Đang giao=rgb(219, 234, 254)",
+      "Đã xác nhận=rgb(224, 231, 255)",
+      "Chờ xác nhận=rgb(254, 249, 195)",
+      "Chờ xác nhận=rgb(254, 249, 195)"
+    ]
+  },
+  "orderActions": {
+    "cancelDlg": [],
+    "s7": "Đã hủy",
+    "s4": "Đã giao",
+    "historyGrowth": 0,
+    "url": "http://localhost:5174/",
+    "revenue": "398,000,000 ₫"
+  },
+  "usersSelectAll": [
+    false,
+    false
+  ],
+  "longTable": {
+    "rows": 36,
+    "pos": "static",
+    "theadVisible": false
+  },
+  "selfDelete": {
+    "disabled": false,
+    "dlg": [],
+    "rows": [
+      " 2 test@eshop.com user Xóa"
+    ]
+  },
+  "logout": {
+    "login": true,
+    "token": null
+  },
+  "backAfterLogout": "browsingContext.traverseHistory: no such history entry History entry with delta -1 not found",
+  "afterBack": {
+    "url": "http://localhost:5174/",
+    "loginShown": true,
+    "adminData": false
+  }
+}
