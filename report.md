@@ -101,7 +101,7 @@ Chạy lại checklist Task 1 trên 3 nền tảng (Chrome/Windows, Firefox/Wind
 |---|---|---|---|---|
 | PF-1 Chrome 157 / Windows 11 (2026-11-14, 1536×730) | 79 | 22 | 57 | Kết quả giống hệt lần chạy Chromium ở Task 1; ảnh có overlay ở `task3-cross-browser/screenshots/PF-1/` (18 ảnh) |
 | PF-2 Firefox 160 / Windows 11 (2026-11-14) | 79 | 22 | 57 | Kết quả giống Task 1; chỉ khác control gốc của Firefox (ô số luôn hiện nút tăng/giảm, select nền xám, date picker, câu thông báo HTML5). Chạy bằng [tools/firefox-pf2.mjs](tools/firefox-pf2.mjs) qua WebDriver BiDi; 18 ảnh overlay ở `task3-cross-browser/screenshots/PF-2/` |
-| PF-3 Safari / macOS | | | | |
+| PF-3 Safari 16.5.1 / macOS (BrowserStack Live, 2026-11-15) | 6 | 1 | 5 | **Chưa đủ.** Trial chỉ cho 1 phút mỗi phiên bản trình duyệt và bàn phím từ xa làm mất ký tự Shift (`@` thành `2`), nên chỉ chụp được trang đăng nhập và hộp `alert()` thật của Safari; 73 mục còn lại ghi N/A. Safari mở được qua Cloudflare Quick Tunnel (BrowserStack Local không nối được). Ảnh: `task3-cross-browser/screenshots/PF-3/` |
 
 ---
 
