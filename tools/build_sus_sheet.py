@@ -1,14 +1,15 @@
 """Build task2-usability/SUS_and_Task_Metrics.xlsx (input cells yellow, all results are formulas).
 Usage: python tools/build_sus_sheet.py   (overwrites the file — run once, then fill it in Excel)
 """
+import sys
 from pathlib import Path
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.worksheet.datavalidation import DataValidation
 
-OUT = Path(__file__).resolve().parent.parent / "task2-usability" / "SUS_and_Task_Metrics.xlsx"
+OUT = Path(__file__).resolve().parent.parent / (sys.argv[1] if len(sys.argv) > 1 else "task2-usability") / "SUS_and_Task_Metrics.xlsx"  # optional arg: output folder
 PEOPLE = [f"P{i}" for i in range(1, 8)]
-TASKS = ["T1 Đăng nhập", "T2 Đọc thống kê", "T3 Tạo sản phẩm", "T4 Tạo mã giảm giá", "T5 Xử lý đơn"]
+TASKS = sys.argv[2:7] if len(sys.argv) >= 7 else ["T1 Đăng nhập", "T2 Đọc thống kê", "T3 Tạo sản phẩm", "T4 Tạo mã giảm giá", "T5 Xử lý đơn"]  # optional: 5 task names
 F = Font(name="Arial", size=10)
 B = Font(name="Arial", size=10, bold=True)
 H = Font(name="Arial", size=10, bold=True, color="FFFFFF")

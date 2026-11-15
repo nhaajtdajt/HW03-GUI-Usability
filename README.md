@@ -23,10 +23,10 @@
 | Mục checklist thiết kế | 79 (AI) + 5 (AI soạn, chờ SV duyệt) = 84 |
 | Mục đã thực thi / Passed / Failed (Chromium) | 84 / 22 / 62 |
 | Số bug | 32 ([bug-report.md](task1-gui-checklist/bug-report.md)) — trên [GitHub Issues](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues) (#1–#32) |
-| Số người tham gia usability | _(7)_ |
-| Điểm SUS trung bình | _(xem SUS_and_Task_Metrics.xlsx)_ |
-| Nền tảng cross-browser | Chrome/Windows, Firefox/Windows, Safari/macOS _(hoặc Chrome/Android)_ |
-| Demo video Agent Skills | _(link YouTube)_ |
+| Số người tham gia usability | _(điền số người thật đã test; chưa có buổi nào)_ |
+| Điểm SUS trung bình | _(chưa có dữ liệu thật)_ |
+| Nền tảng cross-browser | Chrome/Windows (79 mục), Firefox/Windows (79 mục), Safari/macOS qua BrowserStack (chỉ 6 mục có bằng chứng, 73 N/A) |
+| Demo video Agent Skills | [Video 1 (gui-checklist)](https://youtu.be/EVDe7BGZ3ZA) · [Video 2 (usability-eval)](https://youtu.be/lPESf1FE-rk) |
 
 ## Cấu trúc bài nộp
 

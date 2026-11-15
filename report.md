@@ -113,8 +113,8 @@ Chạy lại checklist Task 1 trên 3 nền tảng (Chrome/Windows, Firefox/Wind
 
 | Skill | Chức năng | Demo |
 |---|---|---|
-| [gui-checklist](.claude/skills/gui-checklist/SKILL.md) | Đọc yêu cầu → sinh checklist > 40 mục → thực thi bằng browser tool (kèm mẹo đo DOM, ghi log alert/confirm, upload file) → ghi kết quả + ảnh → gom bug | _(link YouTube)_ |
-| [usability-eval](.claude/skills/usability-eval/SKILL.md) | Soạn kế hoạch, kịch bản, SUS, mẫu ghi chú → hướng dẫn chạy buổi → phân tích, nhóm pain point, xếp severity | _(link YouTube)_ |
+| [gui-checklist](.claude/skills/gui-checklist/SKILL.md) | Đọc yêu cầu → sinh checklist > 40 mục → thực thi bằng browser tool (kèm mẹo đo DOM, ghi log alert/confirm, upload file) → ghi kết quả + ảnh → gom bug | [YouTube: Demo gui-checklist](https://youtu.be/EVDe7BGZ3ZA) |
+| [usability-eval](.claude/skills/usability-eval/SKILL.md) | Soạn kế hoạch, kịch bản, SUS, mẫu ghi chú → hướng dẫn chạy buổi → phân tích, nhóm pain point, xếp severity | [YouTube: Demo usability-eval](https://youtu.be/lPESf1FE-rk) |
 
 ---
 
