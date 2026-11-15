@@ -20,8 +20,8 @@
 |---|---|
 | Số màn hình tested (Task 1) | 7 màn hình admin + sidebar |
 | Số flow usability (Task 2) | 1 |
-| Mục checklist thiết kế | 79 (AI) + _(Human)_ |
-| Mục đã thực thi / Passed / Failed (Chromium) | 79 / 22 / 57 |
+| Mục checklist thiết kế | 79 (AI) + 5 (AI soạn, chờ SV duyệt) = 84 |
+| Mục đã thực thi / Passed / Failed (Chromium) | 84 / 22 / 62 |
 | Số bug | 32 ([bug-report.md](task1-gui-checklist/bug-report.md)) — trên [GitHub Issues](https://github.com/nhaajtdajt/HW03-GUI-Usability/issues) (#1–#32) |
 | Số người tham gia usability | _(7)_ |
 | Điểm SUS trung bình | _(xem SUS_and_Task_Metrics.xlsx)_ |

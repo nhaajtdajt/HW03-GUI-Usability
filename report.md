@@ -39,7 +39,7 @@
 | IA-03 Navigation | 12 | 4 | 8 |
 | IA-04 Feedback / state | 23 | 4 | 19 |
 | **Tổng (bản AI)** | **79** | **22** | **57** |
-| Mục bổ sung của sinh viên | _(điền)_ | | |
+| Mục bổ sung (AI soạn, **chờ sinh viên duyệt**) | 5 | 0 | 5 |
 
 Checklist đầy đủ (ID, IA, màn hình, mục kiểm tra, kết quả mong đợi, tham chiếu, nguồn, kết quả, ghi chú, ảnh): [GUI_Checklist_G5_Admin.xlsx](task1-gui-checklist/GUI_Checklist_G5_Admin.xlsx) · [checklist.md](task1-gui-checklist/checklist.md). Ảnh các mục Failed: [task1-gui-checklist/screenshots/](task1-gui-checklist/screenshots/).
 
@@ -52,11 +52,15 @@ Checklist đầy đủ (ID, IA, màn hình, mục kiểm tra, kết quả mong �
 
 ### 2.3 Mục AI bỏ sót (sinh viên bổ sung)
 
-> Phần này do sinh viên tự review và viết. Thêm dòng vào sheet *Checklist* với Source = `Human`, chạy và chấm như các mục khác.
+> **5 mục dưới do AI soạn và đã chạy thử trên Chromium (bản nháp). Sinh viên cần đọc lại, sửa cột "Vì sao AI bỏ sót" bằng lời của mình và có thể thêm mục riêng** (Source = `Human` trong sheet *Checklist*). Ảnh: `task1-gui-checklist/screenshots/extra_*.jpg`; GUI-80, 81, 84 đo bằng DOM nên không có ảnh.
 
 | ID | IA | Mục bổ sung | Vì sao AI bỏ sót (prompt / giới hạn model / đặc thù giao diện) | Kết quả |
 |---|---|---|---|---|
-| GUI-80 | | | | |
+| GUI-80 | IA-01 | Tiêu đề tab trình duyệt mô tả đúng từng màn hình | Prompt chỉ nhắc thẻ `h1`; `<title>` là metadata nằm ngoài khung nhìn | Failed (`title` = frontend-admin) |
+| GUI-81 | IA-01 | Thuộc tính `lang` khớp ngôn ngữ giao diện | Markup ẩn trong index.html, AI chỉ xét thứ nhìn thấy và code React | Failed (`lang` = en) |
+| GUI-82 | IA-01 | Chế độ tối không làm hỏng hiển thị | Đề bài nêu sẵn dark mode là điểm AI hay quên; prompt gốc không yêu cầu theme | Failed (không hỗ trợ) |
+| GUI-83 | IA-01 | Bố cục dùng được ở 640px (≈ zoom 200%) | AI chỉ xét kích thước desktop mặc định | Failed (mất cột Hành động) |
+| GUI-84 | IA-03 | Có landmark `nav`/`main`/`header` | Giao diện nhìn đúng nên AI không thấy; cần xem cây DOM | Failed (0 landmark) |
 
 ### 2.4 Bug report
 
@@ -118,4 +122,5 @@ Chạy lại checklist Task 1 trên 3 nền tảng (Chrome/Windows, Firefox/Wind
 
 - AI Audit Report: [ai/ai-audit-report.md](ai/ai-audit-report.md) · AI Critique: [ai/ai-critique.md](ai/ai-critique.md)
 - Git commit log: `git-log.txt`
+- Ảnh trang GitHub Issues: `task1-gui-checklist/screenshots/github_issues_page.jpg`
 - Self-assessment & test summary: [README.md](README.md)
